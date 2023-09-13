@@ -7,6 +7,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Row(
+    
       children: [
         SizedBox(
           height: 150,
@@ -19,6 +20,7 @@ class CustomAppBar extends StatelessWidget {
         ),
         Spacer(),
         CustomSearchIcon(),
+
       ],
     );
   }
