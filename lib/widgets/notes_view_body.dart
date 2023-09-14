@@ -9,7 +9,10 @@ class NotesViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title: const CustomAppBar(),
+        title: const CustomAppBar(
+          title: 'Notes',
+          icon: Icons.search,
+        ),
         elevation: 0,
         backgroundColor: Colors.black.withOpacity(0.1),
      ),
